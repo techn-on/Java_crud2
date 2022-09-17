@@ -7,3 +7,4 @@
 2|executive|경영 간부, 임원
 1|assure|안심시키다, 확신시키다
 1| apple|사과
+3|Onsunghyun|온성현
