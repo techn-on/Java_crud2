@@ -23,24 +23,21 @@ public class WordManager {
                 "=> 원하는 메뉴는 ? ");
        return s.nextInt();
     }
-    public void start (){
-        while(true){
-            int menu =selectMenu();
-            if(menu==0)
+    public void start () {
+        while (true) {
+            int menu = selectMenu();
+            if (menu == 0)
                 break;
-            if(menu==4)
-            {
-                wordCrud.addWord();
+            if (menu == 4) {
+                wordCrud.addItem();
                 // menu 5
-            }
-            else if (menu==1){
+            } else if (menu == 1) {
                 wordCrud.listAll();
-            }
-            else if (menu==5){
+            } else if (menu == 5) {
                 wordCrud.updateItem();
 
+            } else if (menu == 6) {
+                wordCrud.deleteItem();
             }
-            else if (menu==6){
         }
-    }
-}
+    }}
