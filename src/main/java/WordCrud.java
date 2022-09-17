@@ -1,5 +1,6 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class WordCrud implements ICRUD{
@@ -109,7 +110,7 @@ public class WordCrud implements ICRUD{
             line= br.readLine();
             if(line==null)
                 break;
-            String data[]=line.split("\\|");
+             String[] data =line.split("\\|");
             int level =Integer.parseInt(data[0]);
             String word =data[1];
             String meaning =data[2];

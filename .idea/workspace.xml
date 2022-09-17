@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12e07d48-e6e8-4d04-9263-38ac32cd87f0" name="Changes" comment="make dictionary file">
+    <list default="true" id="12e07d48-e6e8-4d04-9263-38ac32cd87f0" name="Changes" comment="coding">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordCrud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordCrud.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663393662760</updated>
-      <workItem from="1663393665993" duration="3433000" />
+      <workItem from="1663393665993" duration="4232000" />
     </task>
     <task id="LOCAL-00001" summary="updateitem make">
       <created>1663394760462</created>
@@ -93,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663396995642</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="coding">
+      <created>1663397802490</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663397802490</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +122,7 @@
     <MESSAGE value="make deleteItem" />
     <MESSAGE value="make deleteItem 2" />
     <MESSAGE value="make dictionary file" />
-    <option name="LAST_COMMIT_MESSAGE" value="make dictionary file" />
+    <MESSAGE value="coding" />
+    <option name="LAST_COMMIT_MESSAGE" value="coding" />
   </component>
 </project>
