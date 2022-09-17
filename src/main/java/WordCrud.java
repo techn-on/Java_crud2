@@ -106,10 +106,10 @@ public class WordCrud implements ICRUD{
             int count =0;
             while(true){
             line= br.readLine();
-            if(line==null)
-                break;
+            if(line==null){
+                break;}
              String[] data =line.split("\\|");
-            int level =Integer.parseInt(data[0]);
+            int level = Integer.parseInt(data[0]);
             String word =data[1];
             String meaning =data[2];
             list.add(new Word(0,level,word,meaning));
@@ -125,7 +125,7 @@ public class WordCrud implements ICRUD{
 
     public void saveFile() {
         try {
-            PrintWriter pr = new PrintWriter(new FileWriter("test.txt"));
+            PrintWriter pr = new PrintWriter(new FileWriter(fname));
             for(Word one :list){
                 pr.write(one.toFileString()+"\n");
             }
