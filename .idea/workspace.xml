@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12e07d48-e6e8-4d04-9263-38ac32cd87f0" name="Changes" comment="complete?">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="12e07d48-e6e8-4d04-9263-38ac32cd87f0" name="Changes" comment="import java.util.*">
+      <change beforePath="$PROJECT_DIR$/src/main/java/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663393662760</updated>
-      <workItem from="1663393665993" duration="7387000" />
+      <workItem from="1663393665993" duration="7468000" />
     </task>
     <task id="LOCAL-00001" summary="updateitem make">
       <created>1663394760462</created>
@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663402272335</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="word modify">
+      <created>1663402377874</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663402377874</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +179,9 @@
     <MESSAGE value="java style" />
     <MESSAGE value="save file" />
     <MESSAGE value="complete?" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete?" />
+    <MESSAGE value="word modify" />
+    <MESSAGE value="import java.util.*" />
+    <option name="LAST_COMMIT_MESSAGE" value="import java.util.*" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
