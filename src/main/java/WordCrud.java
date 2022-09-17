@@ -24,11 +24,9 @@ public class WordCrud implements ICRUD{
         System.out.println("\n새 단어장에 단어가 추가 되었습니다. ");
         }
     @Override
-    public int update(Object obj){
-        this.obj.level= s.
-                //contains
-                //printf
+    public int update(Object obj) {
 
+    return 0;
     }
     @Override
     public int delete(Object obj){
@@ -76,7 +74,7 @@ public class WordCrud implements ICRUD{
         s.nextLine();
         System.out.print("=> 뜻 입력 :");
         String meaning = s.nextLine();
-        Word word =list.get(idlist.get(id-1));
+        Word word =list.get(idList.get(id-1));
         word.setMeaning(meaning);
         System.out.println("단어가 수정되었습니다. ");
     }
